@@ -1,0 +1,18 @@
+aplication , session , presentation (PDU => prtocol data unit )
+transport 
+   tcp segmnet
+   udp  datagrame 
+networek  packet 
+datalink frame 
+phiscal Bit
+
+
+
+
+PDU(n) = SDU(n-1) + header(n)
+
+
+IPV 4 , header of fragmntation (8 oct )   => ( 2 oct )( 2 oct ) ( 2 oct ) ( 2 oct )
+
+IPV6 this header dosne't exist => send packet  if packet size > reciptter bufer drop else secsufll transmition packet
+

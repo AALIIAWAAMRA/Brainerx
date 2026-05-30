@@ -1,0 +1,22 @@
+1) is TCP services appear in UDP scan ==> when you lunch nmap udp ( nmap -sU) scan it will apear
+ only udp services and not TCP services 
+
+2) how UDP scan figure out that a port is open  ?
+udp dosen't realy  on 3 way handshak , UDP is connectioless
+wich mean he has no direct methode to know that 
+when nmap send udp request to given port there is 3 senario 
+   A) closed ==> your device send UDP packet the target os
+    will replay with ICMP DESTINATION UNREASHABLE TYPE 3,  CODE 3
+   B) open ==> nmap send empty UDP packet  or  special paylode 
+    for spsfic servies example (DNS , DHCP)
+    the target host will replay with UDP Response 
+   C) filterd ==> the nmap send UDP packet but there
+   is no reponse (no UDP respones or ICMP error) :
+      case01 ==> there is a firewall  drop the udp packet or 
+      ICMP error 
+      case02 ==> there service is desgin to ignore and dosen't respond
+      to empty message
+
+3) way UDP san is to slow ==> rate lemiting for examplein linux it set the maxumim
+ rate of send ICMP error message is message per secound for 
+ all 65535 port so nmap will wate 1 sec for each port indivudaly

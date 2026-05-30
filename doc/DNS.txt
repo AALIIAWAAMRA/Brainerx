@@ -1,0 +1,62 @@
+http://www.googl.com/users?active=true  ptotcol http
+https ://www.googl.com/users?active=true  ptotcol https 
+
+http://www.googl.com/users?active=true subdomine www
+http://docs.googl.com/users?active=true subdomine docs
+
+
+
+http://www.googl.com/users?active=true domine = google
+http://www.facebook.com/users?active=true domine facebook
+
+
+
+http://www.googl.com/users?active=true  Top level Domine  com
+http://www.googl.fr/users?active=true   top leel domine fr
+
+
+http://www.googl.com/users?active=true  path =users
+http://www.googl.com/files?active=true path = files 
+
+
+
+
+dmoine register (nameship , hostinger ) ==> is the assostion that rent or sell you  the  domine 
+domine names is very larger comrecial  ... 
+
+
+
+==================example of DNS server
+
+DNS of claude flare 
+1.1.1.1
+1.1.0.0
+
+
+DNS of google 
+8.8.8.8
+
+
+=================== the workflow of DNS query 
+
+[chache of broswer / chache OS / host file ]  =====> Recuresive DNS Resolver  
+                                                ====> DNS Root server 13  , based on tld (.com ,.fr)
+                                                 ====> TLD server 
+                                                   ===> Autorrive Name server  (name Register) 
+                                                         ====> IPV4 
+
+
+first i tupe google in my brwoser then the dns server (claude flare) will chek the cache 
+of (browser , OS , router) then he will read the file /etc/host (linux system)
+the the Recuresive DNS Resolver will do multiple reqrisive Qurey 
+-1st) the DNS  resolver give the tld to the root server and the root sserver
+ will  replay with TLD server
+
+2nd) after the  DNS resolve know the location of the TLD server (IP )
+ he will request for the autritve name server because TLD server has this recorde 
+
+3rd )the DNS resolover fo to the Autorrive register and asc for the recored A (IPV4) 
+
+4) after the  DNS resolver backe with ip @ the client can secssfully reach the targer website
+
+
