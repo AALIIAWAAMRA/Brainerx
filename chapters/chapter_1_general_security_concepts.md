@@ -37,7 +37,7 @@ Security controls are safeguards or countermeasures designed to avoid, detect, c
 
 Understanding both dimensions together allows you to reason about gaps and overlaps in a security program. A single control often spans multiple types. A locked server room door is both Preventive (it stops access) and Deterrent (it discourages attempts).
 
-[IMAGE PLACEHOLDER: 2x6 grid showing control categories vs. control types with example controls in each cell]
+![](../src/Types-of-security-controls-1.jpg)
 
 ---
 
@@ -184,7 +184,7 @@ No single control is sufficient. The industry principle of *defense in depth* ca
 
 The CIA triad is the foundational model of information security. Every security decision can be evaluated by how it affects one or more of these three properties.
 
-[IMAGE PLACEHOLDER: CIA triad diagram — three overlapping circles labeled Confidentiality, Integrity, Availability with examples in each segment]
+![](../src/cia-header-banner-(1).tmb-banner.jpg)
 
 #### Confidentiality
 

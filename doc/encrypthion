@@ -1,0 +1,42 @@
+encrypthion is the way of taken data from clear (plaintext) to 
+no readable form (hello , klomd) to prevent the confidnetailty of the data
+
+
+the old cryptosystem are relly on (premitation  , substitision , addition)
+all of them has ben brok
+
+ceaser cipher ==> is a crypto system that relly addition
+
+
+rule
+   cipher = Message + key    (encrypthion)
+   Message = Cipher - key   (decrypthion)
+
+
+example 
+   key = 3 
+
+   bac  ==> def
+
+   char           abcdefghigklmnopqrstuvwxrz
+   encoding       0123456789....
+   chipher char   3456789...
+
+
+alice                                 BOB     
+    hello -------------------> hello
+
+
+ case 01 no cryptosystem
+
+
+alcie           hacker               BOB
+   hello ----------hello-----------> hello
+
+
+
+case 02 with cryptosystem ==> in this case we acchive the confidnetailty
+
+
+alcie           hacker               BOB
+   hello ----------echoa-----------> hello  
