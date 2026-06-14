@@ -1,0 +1,18 @@
+Discretionary Access Control ==> the owner of the owner of the resource how 
+determine ho can acess the  given resource or no 
+exampel  ==> linux file system permission
+
+
+manditory Acess Controle ==> eventhe owner of the reource graint the acess to 
+other entity  the system still denied them from acess
+  SELiunx (depend on plicy) , AppArmor (depednd on attrebute)
+http_serve
+
+example 
+imagien you are a system enginer that deply a web server of application of
+your company when we use SELinux and in case the attacker tack off the server 
+he can't even perefoem this commande (ls /home)
+
+SELinux Polcy exampel
+   allow httpd_t httpd_sys_content_t:file read;
+

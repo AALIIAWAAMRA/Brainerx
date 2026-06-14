@@ -1,0 +1,10 @@
+curl ===> is it cLI tool that provide a utlity to preform http methods 
+ http languge is the languge og the wide web 
+ english => helooo godd morning 
+ python => print , for ....
+ HTTP => GET , POST PATCH , OPTIONS , DELETE 
+
+
+curl ==> is wraper for http  we can perforem all http methode easly using
+
+ curl -X MEHTOD http://exampl.com 

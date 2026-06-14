@@ -40,3 +40,17 @@ case 02 with cryptosystem ==> in this case we acchive the confidnetailty
 
 alcie           hacker               BOB
    hello ----------echoa-----------> hello  
+
+message  , key  (user input)
+message (ASCI ,utf-8 , base64 ) 
+
+
+
+
+encode_string = []
+for char in string :
+   encoded_letter  = ord(char)
+   encode_string.apend(encoded_letter)
+print (f"the encode message {encode_string}")
+
+....

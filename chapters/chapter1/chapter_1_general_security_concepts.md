@@ -263,8 +263,7 @@ In information security, non-repudiation is achieved through:
 
 The AAA framework governs how access to systems and resources is managed.
 
-[IMAGE PLACEHOLDER: AAA framework flow diagram — subject → Authentication → Authorization → Accounting with examples at each stage]
-
+![](../src/AAA.jpg.webp)
 #### Authentication — Proving Who You Are
 
 Authentication is the process of verifying that an entity is who or what it claims to be.

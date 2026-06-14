@@ -1,0 +1,23 @@
+intgrty is on of the pill of cia traid tht prevent data from 
+unauthorized modfication 
+
+
+hash  ()  is the process of transforme the data of any type (vdieo ,
+ image  , pdf , text , number) to fixed size  
+ exampl of hash algorithm SHA 256 , SHA512 , SHA1 , MD5 
+
+how hash can  ensure intgerty  ?? 
+the hash is detmnistic and change if a single char change 
+example
+a bank web app send the deposit amount with hash (sha256)
+the backend of the application can know if the deposit number are 
+the same that send by user 
+easlly by caluc the hash of the depost that recive from the user and 
+compare it withe the hash the get it also from the user 
+
+
+command 
+   sha256sum file_name  
+   md5sum file_name 
+output 
+   hash of the file 
